@@ -1,0 +1,215 @@
+body{
+    background-color: #f8f6f7;
+    font-family: sans-serif;
+}
+.site-largura {
+    min-width: 1000px;
+}
+.menu-topo {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    display: flex; 
+}
+
+.menu-topo-esquerda,
+.menu-topo-direita {
+    flex: 1;
+
+}
+.menu-topo-esquerda {
+    display: flex;
+    margin-left: 8em;
+    font-size:large;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+.color-1 {
+    color: #f35926;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.color-2 {
+    color: #fcb929;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.color-3 {
+    color: #00b049;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.viagens {
+    margin-top: 1em;
+    font-size: 0.9em;
+    font-weight: bold
+}
+
+.menu-topo-direita {
+    text-align: right;
+    margin-right: 8em;
+    word-spacing: 4em;
+    font-size: medium;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+}
+.barcos {
+    height: 100%;
+} 
+.formulário {
+    background-color: white;
+    width: 80%;
+	padding:5rem;
+	border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.flex-form{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.margem-baixo {
+    margin-bottom: -10px;
+}
+.campo {
+    width: 100%;
+	padding: 7px 15px;
+	border: 1px solid black;
+	border-radius: 2px;
+	font-size: 18px;
+
+}
+h1{
+    display: flex;
+    margin-top: -20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.buscar-voos {
+    background-color: #ea3d35;
+    color: white;
+    font-size: 28px;
+    border: 2px white;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+main {
+    margin-left: 118px;
+    margin-right: 118px;
+    margin-bottom: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+.descontos {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+article {
+    margin-top:-30px;;
+    height: 15em;
+    width: 17em;
+    border-radius: 25px;
+}
+
+
+.background-Rio {
+    background-image: url(../img/rio.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background-Bonito {
+    background-image: url(../img/bonito.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background-SP {
+    background-image: url(../img/sao-paulo.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background-Foz {
+    background-image: url(../img/foz.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background-Maceió {
+    background-image: url(../img/maceio.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background-Salvador {
+    background-image: url(../img/salvador.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background-Fortaleza {
+    background-image: url(../img/fortaleza.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background-BH {
+    background-image: url(../img/belo-horizonte.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Destinos {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 50px auto 0px;
+    text-shadow: 2px 2px 4px rgb(20, 20, 20);
+}
+.preços {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    margin:30px auto 0px;
+    text-shadow: 2px 2px 4px rgb(20, 20, 20);
+}
+.ver-mais {
+    display: block;
+    margin: 25px auto 0;
+    border-radius: 35px;
+    border: none;
+    width: 62%;
+    height: 12%;
+    padding: 5px 5px 5px;
+  }
+  
+.ver-mais:hover {
+    box-shadow: 0 2px 4px rgba(20, 20, 20,);
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+}
+  
+  
